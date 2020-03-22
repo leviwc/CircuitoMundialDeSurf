@@ -5,7 +5,9 @@
     
     <div class="bateria">
       <div class="linha">
-        Baterias:
+        <div class="titulo">
+          <div class="tituloNome">BATERIAS</div> 
+        </div>
       </div>
       <app-bateria *ngFor="let bateria of baterias" [bateria]="bateria" (decideVencedor)="vencedor($event)" (notaAtt)="notaAtt($event)" (addOnda2)="addOnda($event)"></app-bateria>
       <div class="linha">
@@ -14,18 +16,11 @@
     </div>
     <div class="surfista">
       <app-add-surfista [surfistas]="surfistas" (addSurfista)="addSurfista($event)"></app-add-surfista>
-
-
-
-
       <div class="linha">
 
         <app-rodape *ngFor="let surfista of surfistas" [surfista]="surfista"></app-rodape>
-        
+
       </div>
-
-
-
     </div>
     
   </div>

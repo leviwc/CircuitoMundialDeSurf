@@ -9,11 +9,20 @@
 }
 .bateria{
     background-color: #48D1CC;
-    padding:30px;
+    padding:10px;
     border-style:solid;
     border-color: #3F888F;
     margin-top:30px;
 }
 .topo{
     margin-right:30px;
+    margin-top:10px;
+}
+.vencedor{
+    font-weight:bold;
+    color:red;
+    padding:5px;
+    border-style:solid;
+    margin-top:0;
+    margin-left:280px;
 }
