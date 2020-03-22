@@ -1,0 +1,22 @@
+.onda{
+    width:120px;
+    margin:10px;
+}
+.surfista{
+    margin-left:30px;
+}
+.linha{
+    width:960px;
+    display: inline-flex;
+}
+.inputNota{
+    width:30px;
+}
+
+.surfista.numero{
+    margin-left:1px;
+}
+
+input[type="number"].numero{
+    width:30px
+}

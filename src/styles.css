@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding:0;
+    margin:0;
+}
+input[type="text"]{
+    border-radius:5px;
+    background-color:#D3D3D3;
+    border-width:1px;
+}
+input[type="number"]{
+    border-radius:5px;
+    background-color:#D3D3D3;
+    border-width:1px;
+    
+}
+input[type="button"]{
+    background-color:#D3D3D3;
+    border-width:1px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

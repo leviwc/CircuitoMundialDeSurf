@@ -1,0 +1,41 @@
+.back{
+    width:100%;
+    background-color: #5F9EA0;
+    min-height:1960px;
+}
+.tudo{
+    width:960px;
+    margin:auto;
+    display:block;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#5F9EA0;
+    border-left-style:groove;
+    border-right-style:groove;
+    min-height:1960px;
+}
+.addBateria{
+    margin-left:10px;
+    padding:15px 30px;
+}
+.linha{
+    width: 960px;
+    display:grid;
+    margin-top:30px;
+    grid-auto-flow:column;
+}
+.surfista{
+    margin-left:30px;
+    margin-right: 30px;
+}
+.bateria{
+    padding:5px;
+    background-color:white;
+    border-style:solid;
+}
+.surfista{
+    padding:5px;
+    background-color:white;
+    border-style:solid;
+    margin-top:5px;
+}

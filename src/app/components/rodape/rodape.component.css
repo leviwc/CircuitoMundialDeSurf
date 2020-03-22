@@ -1,0 +1,9 @@
+.surfistaBox{
+    padding:5px;
+    width:100px;
+    border-left-style:solid;
+    border-right-style:solid;
+    margin:5px;
+    display:grid;
+    grid-auto-flow:column;
+}

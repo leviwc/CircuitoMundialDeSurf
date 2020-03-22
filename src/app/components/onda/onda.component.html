@@ -1,0 +1,11 @@
+<div class="linha">
+  <div class="onda info">Onda {{onda.id}}</div>
+  <div class="onda">{{onda.surfista.nome}}</div>
+  <div class="onda info">{{onda.surfista.pais}}</div>
+  <div class="onda info">{{onda.surfista.numero}}</div>
+  <div class="onda">Nota 1: <input type="number" class="inputNota" [(ngModel)]="nota1" value="0" /></div>
+  <div class="onda">Nota 2: <input type="number" class="inputNota" [(ngModel)]="nota2" value="0"/></div>
+  <div class="onda">Nota 3: <input type="number" class="inputNota" [(ngModel)]="nota3" value="0"/></div>
+  <input type="button" class="botao" value="Nota :" (click)="onFinal({nota1:nota1,nota2:nota2,nota3:nota3})" />
+  <div class="onda info">{{((this.onda.nota.nota1+this.onda.nota.nota2+this.onda.nota.nota3)/3).toFixed(2)}}</div>
+</div>
