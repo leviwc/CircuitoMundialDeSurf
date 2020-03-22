@@ -1,5 +1,5 @@
 <div>
-  <input type="text" placeholder="Nome do surfista" [(ngModel)]="nome"/>
-  <input type="text" placeholder="País de origem do surfista" [(ngModel)]="pais"/>
-  <input type="button" value="Adicionar surfista" (click)="onSurfista({nome:nome,pais:pais})"/>
+  <input type="text" placeholder="Nome do surfista" [(ngModel)]="nome" maxlength="8"/>
+  <input type="text" placeholder="País de origem do surfista" [(ngModel)]="pais" maxlength="8"/>
+  <input type="button" value="Adicionar surfista" (click)="onSurfista({nome:nome,pais:pais})" />
 </div>

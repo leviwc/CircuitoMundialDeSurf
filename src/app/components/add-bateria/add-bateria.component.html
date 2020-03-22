@@ -2,7 +2,7 @@
   <input type="button" value="Criar bateria" class="addBateria" (click)="onBateria({surfista1:surfista1,numero1:numero1,surfista2:surfista2,numero2:numero2})"/>
   <div class ="surfista">
     <div >1º Surfista</div>
-    <input type="text" [(ngModel)]="surfista1"/>
+    <input type="text" [(ngModel)]="surfista1" maxlength="8"/>
   </div>
   <div class="surfista numero">
     <div>Nº</div>
@@ -10,7 +10,7 @@
   </div>
   <div class="surfista">
     <div>2º Surfista</div>
-    <input type="text" [(ngModel)]="surfista2"/>
+    <input type="text" [(ngModel)]="surfista2" maxlength="8"/>
   </div>
   <div class="surfista numero">
     <div>Nº</div>

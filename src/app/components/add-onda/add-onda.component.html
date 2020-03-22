@@ -2,7 +2,7 @@
   <input type="button" (click)="onOnda({surfista:surfista, numero:numero})"  value="Adicionar onda"/>
     <div class ="surfista">
       <div >surfista</div>
-      <input type="text" [(ngModel)]="surfista"/>
+      <input type="text" [(ngModel)]="surfista" maxlength="8"/>
     </div>
     <div class="surfista numero">
       <div>numero</div>
