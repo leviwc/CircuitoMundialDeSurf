@@ -12,6 +12,7 @@ export class AddBateriaComponent implements OnInit {
   ngOnInit() {
   }
   onBateria(nome){
-    this.addBateria.emit(nome);
+    if(nome.numero1!=nome.numero2)
+      this.addBateria.emit(nome);
   }
 }
