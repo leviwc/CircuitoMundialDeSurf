@@ -12,6 +12,10 @@
     width:90px;
     margin:10px;
 }
+.nome{
+    margin:10px;
+    width:120px;
+}
 .linha{
     background-color: rgb(180, 234, 238);
     display: inline-flex;
